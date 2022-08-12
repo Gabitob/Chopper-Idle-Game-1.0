@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Choper Idle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="menus">
+            <div class="main">
+                <button id="chop">Cortar Madeira</button>
+                <button id="visit">Visitar Mercado</button>
+                <button id="mineStone">Minerar Por Pedra</button>
+            </div>
+
+            <div class="marketplace">
+                <div class="sellButtons">
+                    <button id="sell1">Vender [1] Madeira</button>
+                    <button id="sell10">Vender [10] Madeiras</button>
+                    <button id="sellAll">Vender Todas Madeiras</button>
+                </div>
+
+                <div class="upgrades">
+                    <button id="autoChopper">Comprar [1] Cortador Automático ($100)</button>
+                </div>
+
+                <div class="items">
+                    <button id="buyPickaxe">Comprar [1] Picareta ($50)</button>
+                </div>
+                <button id="return">Retornar</button>
+            </div>
+            
+        </div>
+
+        <div class="inventory">
+            <p id="money">Dinheiro: $0</p>
+            <p id="logs">Você agora tem 0 madeiras.</p>
+            <p id="pickaxes"></p>
+            <p id="stone"></p>
+        </div>
+    </div>
+</body>
+
+</html>
